@@ -1,27 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 body {
     text-align: center;
-    background-color:rgb(50, 43, 59);
+    background-color:rgb(253, 241, 237);
     font-family:'Press Start 2P', cursive;
 }
 
-#websiteheader {
+#top {
+    border-style: double;
+    border-width: 10px;
+    border-color: rgb(40, 45, 54);
+    background-color: rgb(253, 241, 237);
     padding: 20px;
-    background-color: rgb(131, 175, 153);
-    color: rgb(243, 207, 197);
+}
+
+#websiteheader {
+    padding: 30px;
+    background-color: rgb(236, 182, 164);
+    color: rgb(253, 241, 237);
     text-align:right;
 }
 
 #pagetitle {
-    background-color:rgb(230, 99, 95);
+    background-color:rgb(40, 45, 54);
     margin-top: 20px;
     padding: 90px;
     text-align: center;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 h1 {
     font-size: 50px;
-    color: rgb(241, 211, 203);
+    color: rgb(236, 182, 164);
 }
 
 #directory {
@@ -31,41 +40,61 @@ h1 {
 h2 {
     font-size: 30px;
     text-align: center;
-    color: rgb(247, 172, 122);
+    color: rgb(40, 45, 54);
 }
 a {
     font-family:'Press Start 2P', cursive;
     text-decoration:none;
     font-size:20px;
-    color: rgb(230, 99, 95);
+    color: rgb(253, 241, 237);
     text-align: center;
 }
 a:hover {
-    color:rgb(241, 211, 203);
+    color:rgb(253, 241, 237);
 }
 ul {
     list-style-type:none;
     text-align: center;
 }
+#button1, #button2 {
+    display: inline-block;
+}
+#button3, #button4 {
+    display: inline-block;
+}
 button {
-    padding: 10px;
-    padding-bottom: 5px;
-    margin: 5px;
-    margin-left: 0px;
+    padding: 15px;
+    width: 200px;
+    background-color: rgb(180, 205, 202);
+    color: rgb(253, 241, 237);
+    font-family: 'Press Start 2P', cursive;
     border-radius: 5px;
-    background-color:rgb(247, 172, 122);
-    font-family:courier;
-    border: none;
-
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border:none;
+    box-shadow: 0 0 0 rgb(40, 45, 54);
+    transition: all 0.2s;
+    margin: 10px;
+}
+button:hover {
+    box-shadow: 0.4rem 0.4rem 0 rgb(40, 45, 54);
+    transform: translate(-0.4rem, -0.4rem);
+}
+button:active {
+    box-shadow: 0 0 0 rgb(40, 45, 54);
+    transform: translate(0, 0);
+}
+p {
+    margin-top:20px;
 }
 hr {
-    background-color:rgb(241, 211, 203);
+    background-color:rgb(40, 45, 54);
     height: 100px;
 }
 
 #mainbox {
     padding: 30px;
-    background-color:rgb(241, 211, 203);
+    background-color:rgb(253, 241, 237);
     margin-top: 5px;
 }
 h3 {
@@ -120,14 +149,14 @@ p {
     width: 500px;
     height: 200px;
     margin: auto;
-    color: rgb(243, 207, 197);
+    color: rgb(253, 241, 237);
 }
 .con {
     background-color:rgb(230, 99, 95);
     width: 500px;
     height: 200px;
     margin: auto;
-    color: rgb(243, 207, 197);
+    color: rgb(253, 241, 237);
 }
 .pro:hover, .con:hover {
     animation-name: enlarge;
