@@ -16,6 +16,17 @@ body {
     margin-bottom: 30px;
 }
 
+#box2 {
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(40, 45, 54);
+    background-color: rgb(180, 205, 202);
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 150px;
+    margin-bottom: 30px;
+}
+
 #websiteheader {
     padding: 30px;
     background-color: rgb(236, 182, 164);
@@ -60,7 +71,7 @@ a {
 a:hover {
     color:rgb(253, 241, 237);
 }
-ul {
+#direclist {
     list-style-type:none;
     text-align: center;
 }
@@ -213,3 +224,62 @@ p {
 .proscons {
     text-align: left;
 }
+
+#photolist{
+    position:auto;
+    margin:0;
+    padding:0;
+  }
+  
+  #photo{
+    text-align:center;
+    display:inline-block;
+    list-style:none;
+    position:relative;
+    border:solid 12px #fff;
+    background:#fff;
+    box-shadow:0 0 15px 0px rgb(40, 45, 54);
+    transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -webkit-transition:all 1s ease;
+    top:50px;
+  }
+  #photo:hover{
+    top:0px;
+    opacity:0.5;
+  }
+  
+  #photo:nth-child(1), #photo:nth-child(5) {
+      transform:rotate(10deg);
+  }
+  
+  #photo:nth-child(2), #photo:nth-child(6) {
+      transform:rotate(0deg);
+  }
+  
+  #photo:nth-child(3), #photo:nth-child(7) {
+      transform:rotate(-10deg);
+  }
+  
+  #photo:nth-child(4), #photo:nth-child(8) {
+      transform:rotate(20deg);
+  }
+
+  #caption {
+    color:rgb(40, 45, 54);
+    margin: 10px 0 0 0;
+  }
+  
+  .light{
+    border-radius:50%;
+    position:absolute;
+    left:0;
+    right:0;
+    width:700px;
+    height:700px;
+    background:#fff;
+    filter:blur(100px);
+    opacity:0.3;
+    pointer-events:none;
+  }
