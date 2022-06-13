@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Libre+Barcode+39+Text&family=VT323&display=swap');
+
 body {
     text-align: center;
-    background-color:rgb(253, 241, 237);
-    font-family:'Press Start 2P', cursive;
+    background-color:rgb(250, 225, 217);
+    font-family: 'Courier Prime', monospace;
+    font-size: large;
 }
 
 #top {
@@ -11,6 +13,7 @@ body {
     border-color: rgb(40, 45, 54);
     background-color: rgb(253, 241, 237);
     padding: 20px;
+    margin-bottom: 30px;
 }
 
 #websiteheader {
@@ -18,19 +21,24 @@ body {
     background-color: rgb(236, 182, 164);
     color: rgb(253, 241, 237);
     text-align:right;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 80px;
 }
 
 #pagetitle {
     background-color:rgb(40, 45, 54);
+    color: rgb(236, 182, 164);
     margin-top: 20px;
-    padding: 90px;
+    padding: 50px;
     text-align: center;
     margin-bottom: 20px;
     border-radius: 10px;
+    border-style: double;
+    border-color: rgb(253, 241, 237);
+    border-width: 8px;
 }
 h1 {
-    font-size: 50px;
-    color: rgb(236, 182, 164);
+    font-size: 60px;
 }
 
 #directory {
@@ -38,14 +46,14 @@ h1 {
     margin-top: 20px;
 }
 h2 {
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     color: rgb(40, 45, 54);
 }
 a {
-    font-family:'Press Start 2P', cursive;
+    font-family: 'Courier Prime', monospace;
     text-decoration:none;
-    font-size:20px;
+    font-size:30px;
     color: rgb(253, 241, 237);
     text-align: center;
 }
@@ -67,7 +75,7 @@ button {
     width: 200px;
     background-color: rgb(180, 205, 202);
     color: rgb(253, 241, 237);
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Courier Prime', monospace;
     border-radius: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -94,17 +102,50 @@ hr {
 
 #mainbox {
     padding: 30px;
-    background-color:rgb(253, 241, 237);
+    background-color:rgb(40, 45, 54);
     margin-top: 5px;
+    color: rgb(253, 241, 237);
+    box-shadow: 10px 10px rgb(31, 21, 35);
+    border-color: rgb(253, 241, 237);
+    border-style: solid;
+    border-width: 2px;
+    transform: translate(-10px, 0px);
+    margin-bottom: 40px;
 }
-h3 {
-    color: rgb(31, 28, 43);
+#mainheader {
+    color: rgb(253, 241, 237);
+    font-family: 'VT323', monospace;
+    font-size: 40px;
+}
+h4 {
+    font-size: 30px;
+}
+#innerbox {
+    margin: 30px;
+    color: rgb(40, 45, 54);
+    padding: 20px;
+    background-color: rgb(253, 241, 237);
+    border-radius: 20px;
+    font-size: 25px;
+}
+#titlehighlight {
+    background-color: rgb(236, 182, 164);
+    padding: 10px;
+    margin: 10px;
+    border-style: double;
+    border-width: 8px;
+    border-color: rgb(253, 241, 237);
+}
+#description {
+    margin: 20px;
+    text-align: left;
 }
 #blink {
     animation: blink 0.3s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
     animation-timing-function: none;
+    font-family: 'VT323', monospace;
 }
 @keyframes blink {
     from {opacity:0};
@@ -119,25 +160,25 @@ a:hover, .selectblink {
 img {
     margin: 5px;
 }
-#pinkcolorsquare {
-    background-color:rgb(230, 99, 95);
+#colorsquare1 {
+    background-color:rgb(236, 182, 164);
     width:30px;
     height:30px;
-    color:rgb(230, 99, 95);
+    color:rgb(236, 182, 164);
     margin: 20px 5px;
 }
-#greencolorsquare {
-    background-color:rgb(131, 175, 153);
+#colorsquare2 {
+    background-color:rgb(180, 205, 202);
     width:30px;
     height:30px;
-    color:rgb(131, 175, 153);
+    color:rgb(180, 205, 202);
     margin: 20px 5px;
 }
-#yellowcolorsquare {
-    background-color:rgb(247, 172, 122);;
+#colorsquare3 {
+    background-color:rgb(253, 241, 237);
     width:30px;
     height:30px;
-    color:rgb(247, 172, 122);;
+    color:rgb(253, 241, 237);
     margin: 20px 5px;
 }
 p {
