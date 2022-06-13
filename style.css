@@ -24,7 +24,10 @@ body {
     border-radius: 10px;
     padding: 20px;
     padding-bottom: 150px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+}
+#inline {
+    display: inline-block;
 }
 
 #websiteheader {
@@ -34,6 +37,7 @@ body {
     text-align:right;
     font-family: 'Libre Barcode 39 Text', cursive;
     font-size: 80px;
+    box-shadow: 0px 10px rgb(250, 225, 217);
 }
 
 #pagetitle {
@@ -169,7 +173,7 @@ a:hover, .selectblink {
     animation-timing-function: none;
 }
 img {
-    margin: 5px;
+    margin: auto;
 }
 #colorsquare1 {
     background-color:rgb(236, 182, 164);
