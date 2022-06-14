@@ -150,6 +150,7 @@ h4 {
     font-size: 30px;
 }
 #innerbox {
+    object-fit: contain;
     margin: 30px;
     color: rgb(40, 45, 54);
     padding: 20px;
