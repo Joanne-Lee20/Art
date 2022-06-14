@@ -31,6 +31,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    box-shadow: 10px 10px rgb(236, 182, 164);
+    transform: translate(-10px, 0px);
 }
 #inline {
     display: inline-block;
