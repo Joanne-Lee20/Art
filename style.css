@@ -83,6 +83,9 @@ a {
 a:hover {
     color:rgb(253, 241, 237);
 }
+ul {
+    text-align: center;
+}
 #direclist {
     list-style-type:none;
     text-align: center;
@@ -92,6 +95,9 @@ a:hover {
 }
 #button3, #button4 {
     display: inline-block;
+}
+#button5 {
+    display: block;
 }
 button {
     padding: 10px;
