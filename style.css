@@ -61,7 +61,7 @@ body {
     border-width: 8px;
 }
 h1 {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 #directory {
@@ -100,7 +100,7 @@ ul {
     display: block;
 }
 button {
-    padding: 10px;
+    padding: 5px;
     width: 200px;
     background-color: rgb(180, 205, 202);
     color: rgb(253, 241, 237);
@@ -111,7 +111,7 @@ button {
     border:none;
     box-shadow: 0 0 0 rgb(40, 45, 54);
     transition: all 0.2s;
-    margin: 10px;
+    margin: 5px;
 }
 button:hover {
     box-shadow: 0.4rem 0.4rem 0 rgb(40, 45, 54);
